@@ -1,0 +1,207 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ 
+ body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background: url(Picture/Background1.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
+ @media(max-width:2000px){
+    .container{
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        background: #FFFFFF;
+     }
+     .back{
+        position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 10px;
+    top: 5px;
+     }
+     .RumahSakitTerdekat h2{
+        position: absolute;
+        width: 400px;
+        height: 50px;
+        left: 420px;
+        top: 45px;
+        
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 33px;
+        letter-spacing: 0.02em;
+        
+        color: #FF8686;
+        
+     }
+     .horizontal-line {
+        position: absolute;
+        width: 407px;
+    height: 0px;
+    left: 420px;
+    top: 80px;
+    
+    border: 1px solid #FFD0D0;
+    transform: rotate(-0.15deg);
+    
+      }
+      #pesan {
+        position:relative;
+        width: 1000px;
+        height: 300px;
+        top: 100px;
+        background: #F9A2A2;
+        overflow-y: auto;
+    }
+    #map {
+        position:relative;
+        width: 1000px;
+        height: 300px;
+        top: 200px;
+        overflow-y: auto;
+    }
+    
+    .form-group {
+        position: center;
+        text-align:justify;
+        margin: 10px 0;
+    }
+    
+    .inner {
+        padding: 10px;
+    }
+    
+    #detail {
+        display: none;
+        margin-top: 50px;
+    }
+    
+    #detail th, #detail td {
+        padding: 10px;
+    }
+    
+    .card-custom {
+        background-color: #fff;
+        padding: 10px 15px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+    }
+    
+    #Pesan-btn {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media(max-width:767px){
+    .container{
+        position: relative;
+        width: 393px;
+        height: 852px;
+        background: #FFFFFF;
+     }
+     
+     
+     .back{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 10px;
+        top: 5px;
+     }
+     
+     .RumahSakitTerdekat h2{
+        position: absolute;
+        width: 308px;
+        height: 23px;
+        left: 85px;
+        top: 45px;
+        
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.02em;
+        
+        color: #FF8686;
+        
+     }
+    
+     .horizontal-line {
+        position: absolute;
+        width: 407px;
+        height: 0px;
+        left: -3px;
+        top: 80px;
+        
+        border: 1px solid #FFD0D0;
+        transform: rotate(-0.15deg);
+      }
+    
+    
+    
+     #pesan {
+        position: absolute;
+        width: 352px;
+        height: 229px;
+        left: 24px;
+        top: 100px;
+        background: #F9A2A2;
+        overflow-y: auto;
+    }
+    
+    #map {
+        position: absolute;
+        width: 352px;
+        height: 229px;
+        left: 2%;
+        top: 40%;
+    }
+    
+    .form-group {
+        position: center;
+        text-align:justify;
+        margin: 10px 0;
+    }
+    
+    .inner {
+        padding: 10px;
+    }
+    
+    #detail {
+        display: none;
+        margin-top: 50px;
+    }
+    
+    #detail th, #detail td {
+        padding: 10px;
+    }
+    
+    .card-custom {
+        background-color: #fff;
+        padding: 10px 15px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+    }
+    
+    #Pesan-btn {
+        display: block;
+        margin: auto;
+    }
+}
+
+
